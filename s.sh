@@ -5,6 +5,13 @@ then
     echo "Usage: ./s.sh repository commitSentence gitClient"
     echo "Name of online repo must be equal to name's project"
 fi
+
+if [ $# -lt 3 ]
+then
+    echo "Usage: ./s.sh repository commitSentence gitClient"
+    echo "Name of online repo must be equal to name's project"
+fi
+
 # check if destiny folders exists, in case they not, it creates them
 if [ -d /home/sergio/github/$1 ]
 then
