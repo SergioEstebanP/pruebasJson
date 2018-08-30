@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "testing-https://reqres.in/-swagger-services;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7024444598,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I request to do \u0027get\u0027 operation to get a user by:",
+            "match": {
+              "arguments": [
+                {
+                  "val": "get",
+                  "offset": 17
+                }
+              ],
+              "location": "StepsDefinitions.iRequestToDoOperationToGetAuser(String,String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "id",
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5876056,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should get a response with:",
+            "match": {
+              "location": "StepsDefinitions.iShouldGetAResponseWith(String,String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "first_name",
+                  "Janet"
+                ]
+              },
+              {
+                "cells": [
+                  "last_name",
+                  "Weaver"
+                ]
+              },
+              {
+                "cells": [
+                  "avatar",
+                  "https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1761281,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The status code must be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "StepsDefinitions.theStatusCodeMustBe(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing https://reqres.in/ swagger services",
+    "description": "",
+    "id": "testing-https://reqres.in/-swagger-services",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/test.feature",
+    "tags": []
+  }
+]
