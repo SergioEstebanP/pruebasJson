@@ -10,7 +10,6 @@ import org.json.JSONObject;
 import org.junit.Assert;
 import responseObjects.User;
 
-import java.util.HashMap;
 import java.util.Map;
 
 import static net.serenitybdd.rest.SerenityRest.rest;

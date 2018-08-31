@@ -16,7 +16,7 @@ public class UserList extends JSONObject implements Compare {
 
     // BUILDERS
         // DEFAULT
-    public UserList () {
+    public UserList (int a) {
         super();
     }
 
@@ -33,7 +33,6 @@ public class UserList extends JSONObject implements Compare {
 
     // METHODS
         // SETTERS
-    public void set
     @Override
     public boolean equals(User object) {
         return false;
